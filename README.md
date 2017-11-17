@@ -2,7 +2,7 @@
 
 ## Source and initialize raw data files
 ### 0.1 Download and unzip datasets from UCI website
-All files in this section are downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+All files were downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 - 'README.txt' was sourced into Repo as basis for 'Code Book.md'
 - 'features_info.txt' file was sourced for information about variables for feature vector.
 ### 0.2 Read applicable analysis files into R

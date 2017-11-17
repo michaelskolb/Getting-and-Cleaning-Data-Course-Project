@@ -27,7 +27,7 @@ For each record it is provided:
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
 
-### Description of the raw data files
+### Description of raw data fields
 The dataset includes the following files:
 - 'README.txt'
 
@@ -45,11 +45,79 @@ The dataset includes the following files:
 
 - 'test/y_test.txt': Test labels.
 
-## Creating the tidy datafile
-
-### Guide to create the tidy data file
-
-### Cleaning of the data
+### Description of tidy data fields
+"subject"
+"timebodyaccelmeanx"
+"timebodyaccelmeanz"
+"timebodyaccelstdy"
+"timegravityaccelmeanx"
+"timegravityaccelmeanz"
+"timegravityaccelstdy"
+"timebodyacceljerkmeanx"
+"timebodyacceljerkmeanz"
+"timebodyacceljerkstdy"
+"timebodygyromeanx"
+"timebodygyromeanz"
+"timebodygyrostdy"
+"timebodygyrojerkmeanx"
+"timebodygyrojerkmeanz"
+"timebodygyrojerkstdy"
+"timebodyaccelmagmean"
+"timegravityaccelmagmean"
+"timebodyacceljerkmagmean"
+"timebodygyromagmean"
+"timebodygyrojerkmagmean"
+"freqbodyaccelmeanx"
+"freqbodyaccelmeanz"
+"freqbodyaccelstdy"
+"freqbodyacceljerkmeanx"
+"freqbodyacceljerkmeanz"
+"freqbodyacceljerkstdy"
+"freqbodygyromeanx"
+"freqbodygyromeanz"
+"freqbodygyrostdy"
+"freqbodyaccelmagmean"
+"freqbodybodyacceljerkmagmean"
+"freqbodybodygyromagmean"
+"freqbodybodygyrojerkmagmean"
+"freqbodybodygyromagmean"
+"freqbodybodygyrojerkmagmean"
+"activity"
+"timebodyaccelmeany"
+"timebodyaccelstdx"
+"timebodyaccelstdz"
+"timegravityaccelmeany"
+"timegravityaccelstdx"
+"timegravityaccelstdz"
+"timebodyacceljerkmeany"
+"timebodyacceljerkstdx"
+"timebodyacceljerkstdz"
+"timebodygyromeany"
+"timebodygyrostdx"
+"timebodygyrostdz"
+"timebodygyrojerkmeany"
+"timebodygyrojerkstdx"
+"timebodygyrojerkstdz"
+"timebodyaccelmagstd"
+"timegravityaccelmagstd"
+"timebodyacceljerkmagstd"
+"timebodygyromagstd"
+"timebodygyrojerkmagstd"
+"freqbodyaccelmeany"
+"freqbodyaccelstdx"
+"freqbodyaccelstdz"
+"freqbodyacceljerkmeany"
+"freqbodyacceljerkstdx"
+"freqbodyacceljerkstdz"
+"freqbodygyromeany"
+"freqbodygyrostdx"
+"freqbodygyrostdz"
+"freqbodyaccelmagstd"
+"freqbodybodyacceljerkmagstd"
+"freqbodybodygyromagstd"
+"freqbodybodygyrojerkmagstd"
+"freqbodybodygyromagstd"
+"freqbodybodygyrojerkmagstd"
 
 ## Source
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012

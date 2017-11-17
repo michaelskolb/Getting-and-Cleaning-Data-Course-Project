@@ -36,15 +36,15 @@ aData, fData, sData are combined as tdat
 ## 2.0 Subset columns from tdat
 Only include columns from tdat with Subject, Activtiy, or fNames with mean or std
 
-## 3.0 Replace Activity integers with descriptive factor names
+## 3.0 Replace Activity integers with descriptive names
 Activity itegers (1-6) from subtdat are replaced with the actions describing the activity
 
-## 4.0 Replace column labels with descriptive names and set Subject as factor
+## 4.0 Replace column labels with descriptive names and set ID variables as factors
 - Column labels in subtdat are made to be more descriptive
-- Subject is cast as a factor variable
+- activity and subject variables are cast as a factors
 
 ## 5.0 Create independent tidy dataset
 The folllowing library(reshape2) functions are used to:
 - Assign finaldat as melt function with ID variables "subject" and "activity"
-- Assign finalmean as dcast function, which calculates mean for variable combinates in finaldat
-- Write .txt file called tidydata.txt
+- Assign finalmean as dcast function, which calculates mean for ID/measurement variable combinations in finaldat
+Write finalmean data to .txt file called tidydata.txt

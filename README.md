@@ -10,8 +10,8 @@ All files in this section are downloaded from https://d396qusza40orc.cloudfront.
 - 'test/y_test.txt': Test labels -> aTest
 - 'train/X_train.txt': Training set -> fTrain
 - 'test/X_test.txt': Test set -> fTest
-- 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample -> sTrain
-- 'test/subject_test.txt': Each row identifies the subject who performed the activity for each window sample -> sTest
+- 'train/subject_train.txt': Each row identifies the subject who performed the activity -> sTrain
+- 'test/subject_test.txt': Each row identifies the subject who performed the activity -> sTest
 - 'activity_labels.txt' file was sourced for class labels mapping to activity name -> aNames
 - 'features.txt' file was sourced to ist of all features -> fNames
 

@@ -1,12 +1,11 @@
 # Getting and Cleaning Data Course Project
 
 ## Source and initialize raw data files
+### 0.1 Download and unzip datasets from UCI website
 All files in this section are downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 - 'README.txt' was sourced into Repo as basis for 'Code Book.md'
 - 'features_info.txt' file was sourced for information about variables for feature vector.
-### 0.1 Download and unzip datasets from UCI website
-### 0.2 List files from unzipped Week4 folder
-### 0.3 Read applicable analysis files into R
+### 0.2 Read applicable analysis files into R
 - 'train/y_train.txt': Training labels -> aTrain
 - 'test/y_test.txt': Test labels -> aTest
 - 'train/X_train.txt': Training set -> fTrain
@@ -16,8 +15,8 @@ All files in this section are downloaded from https://d396qusza40orc.cloudfront.
 - 'activity_labels.txt' file was sourced for class labels mapping to activity name -> aNames
 - 'features.txt' file was sourced to ist of all features -> fNames
 
-## Combine data and add variable names
-### 1.0 Rows from Combine rows from associated Test and Train datasets
+## Combine datasets and associated variable names
+### 1.0 Combine rows from associated Test and Train datasets
 The following files are combined as aData
 - 'train/y_train.txt': aTrain
 - 'test/y_test.txt': aTest
@@ -34,14 +33,14 @@ sData variable = "Subject"
 ### 1.2 Combine activity, feature, and subject data
 aData, fData, sData are combined as tdat
 
-## 2.0 Subset cols 
-Only columns with Subject, Activtiy, or fNames with mean or std are included in subtdat
+## 2.0 Subset columns from tdat
+Only include columns from tdat with Subject, Activtiy, or fNames with mean or std
 
 ## 3.0 Replace Activity integers with descriptive factor names
-Activity itegers (1-6) in subtdat are replaced with the actions describing the activity
+Activity itegers (1-6) from subtdat are replaced with the actions describing the activity
 
 ## 4.0 Replace column labels with descriptive names and set Subject as factor
-- Column labels in subtdat are made to be more description
+- Column labels in subtdat are made to be more descriptive
 - Subject is cast as a factor variable
 
 ## 5.0 Create independent tidy dataset

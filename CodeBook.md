@@ -46,78 +46,78 @@ The dataset includes the following files:
 - 'test/y_test.txt': Test labels.
 
 ### Description of tidy data fields
-"subject"
-"timebodyaccelmeanx"
-"timebodyaccelmeanz"
-"timebodyaccelstdy"
-"timegravityaccelmeanx"
-"timegravityaccelmeanz"
-"timegravityaccelstdy"
-"timebodyacceljerkmeanx"
-"timebodyacceljerkmeanz"
-"timebodyacceljerkstdy"
-"timebodygyromeanx"
-"timebodygyromeanz"
-"timebodygyrostdy"
-"timebodygyrojerkmeanx"
-"timebodygyrojerkmeanz"
-"timebodygyrojerkstdy"
-"timebodyaccelmagmean"
-"timegravityaccelmagmean"
-"timebodyacceljerkmagmean"
-"timebodygyromagmean"
-"timebodygyrojerkmagmean"
-"freqbodyaccelmeanx"
-"freqbodyaccelmeanz"
-"freqbodyaccelstdy"
-"freqbodyacceljerkmeanx"
-"freqbodyacceljerkmeanz"
-"freqbodyacceljerkstdy"
-"freqbodygyromeanx"
-"freqbodygyromeanz"
-"freqbodygyrostdy"
-"freqbodyaccelmagmean"
-"freqbodybodyacceljerkmagmean"
-"freqbodybodygyromagmean"
-"freqbodybodygyrojerkmagmean"
-"freqbodybodygyromagmean"
-"freqbodybodygyrojerkmagmean"
-"activity"
-"timebodyaccelmeany"
-"timebodyaccelstdx"
-"timebodyaccelstdz"
-"timegravityaccelmeany"
-"timegravityaccelstdx"
-"timegravityaccelstdz"
-"timebodyacceljerkmeany"
-"timebodyacceljerkstdx"
-"timebodyacceljerkstdz"
-"timebodygyromeany"
-"timebodygyrostdx"
-"timebodygyrostdz"
-"timebodygyrojerkmeany"
-"timebodygyrojerkstdx"
-"timebodygyrojerkstdz"
-"timebodyaccelmagstd"
-"timegravityaccelmagstd"
-"timebodyacceljerkmagstd"
-"timebodygyromagstd"
-"timebodygyrojerkmagstd"
-"freqbodyaccelmeany"
-"freqbodyaccelstdx"
-"freqbodyaccelstdz"
-"freqbodyacceljerkmeany"
-"freqbodyacceljerkstdx"
-"freqbodyacceljerkstdz"
-"freqbodygyromeany"
-"freqbodygyrostdx"
-"freqbodygyrostdz"
-"freqbodyaccelmagstd"
-"freqbodybodyacceljerkmagstd"
-"freqbodybodygyromagstd"
-"freqbodybodygyrojerkmagstd"
-"freqbodybodygyromagstd"
-"freqbodybodygyrojerkmagstd"
+- subject
+- activity
+- freqbodyacceljerkmeanx
+- freqbodyacceljerkmeany
+- freqbodyacceljerkmeanz
+- freqbodyacceljerkstdx
+- freqbodyacceljerkstdy
+- freqbodyacceljerkstdz
+- freqbodyaccelmagmean
+- freqbodyaccelmagstd
+- freqbodyaccelmeanx
+- freqbodyaccelmeany
+- freqbodyaccelmeanz
+- freqbodyaccelstdx
+- freqbodyaccelstdy
+- freqbodyaccelstdz
+- freqbodybodyacceljerkmagmean
+- freqbodybodyacceljerkmagstd
+- freqbodybodygyrojerkmagmean
+- freqbodybodygyrojerkmagmean
+- freqbodybodygyrojerkmagstd
+- freqbodybodygyrojerkmagstd
+- freqbodybodygyromagmean
+- freqbodybodygyromagmean
+- freqbodybodygyromagstd
+- freqbodybodygyromagstd
+- freqbodygyromeanx
+- freqbodygyromeany
+- freqbodygyromeanz
+- freqbodygyrostdx
+- freqbodygyrostdy
+- freqbodygyrostdz
+- timebodyacceljerkmagmean
+- timebodyacceljerkmagstd
+- timebodyacceljerkmeanx
+- timebodyacceljerkmeany
+- timebodyacceljerkmeanz
+- timebodyacceljerkstdx
+- timebodyacceljerkstdy
+- timebodyacceljerkstdz
+- timebodyaccelmagmean
+- timebodyaccelmagstd
+- timebodyaccelmeanx
+- timebodyaccelmeany
+- timebodyaccelmeanz
+- timebodyaccelstdx
+- timebodyaccelstdy
+- timebodyaccelstdz
+- timebodygyrojerkmagmean
+- timebodygyrojerkmagstd
+- timebodygyrojerkmeanx
+- timebodygyrojerkmeany
+- timebodygyrojerkmeanz
+- timebodygyrojerkstdx
+- timebodygyrojerkstdy
+- timebodygyrojerkstdz
+- timebodygyromagmean
+- timebodygyromagstd
+- timebodygyromeanx
+- timebodygyromeany
+- timebodygyromeanz
+- timebodygyrostdx
+- timebodygyrostdy
+- timebodygyrostdz
+- timegravityaccelmagmean
+- timegravityaccelmagstd
+- timegravityaccelmeanx
+- timegravityaccelmeany
+- timegravityaccelmeanz
+- timegravityaccelstdx
+- timegravityaccelstdy
+- timegravityaccelstdz
 
 ## Source
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012

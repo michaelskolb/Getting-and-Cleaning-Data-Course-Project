@@ -30,11 +30,13 @@ The dataset includes the following files:
 - 'train/y_train.txt': Training labels.
 - 'test/X_test.txt': Test set.
 - 'test/y_test.txt': Test labels.
+- 'train/subject_train.txt': Training subjects.
+- 'test/subject_test.txt': Test subjects.
 
 ### Descriptive tidy data fields
 - subject: identifies each test subject (1-30)
 - activity: identifies each of the six activities performed by the test subjects
-- The following fields are average mean / standard deviation results for each variable: 
+- The following fields are average mean / standard deviation results for each subject/activity: 
   - freqbodyacceljerkmeanx
   - freqbodyacceljerkmeany
   - freqbodyacceljerkmeanz

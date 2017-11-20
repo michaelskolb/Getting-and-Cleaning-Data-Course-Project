@@ -1,10 +1,3 @@
-
-Title: Getting and Cleaning Data Course Project
-
-Author: Michael Kolb
-
-Date: 11/14/2017
-
 ## Project Description
 This project tidies a dataset from the following study:
   Human Activity Recognition Using Smartphones Dataset
@@ -39,78 +32,79 @@ The dataset includes the following files:
 - 'test/y_test.txt': Test labels.
 
 ### Descriptive tidy data fields
-- subject
-- activity
-- freqbodyacceljerkmeanx
-- freqbodyacceljerkmeany
-- freqbodyacceljerkmeanz
-- freqbodyacceljerkstdx
-- freqbodyacceljerkstdy
-- freqbodyacceljerkstdz
-- freqbodyaccelmagmean
-- freqbodyaccelmagstd
-- freqbodyaccelmeanx
-- freqbodyaccelmeany
-- freqbodyaccelmeanz
-- freqbodyaccelstdx
-- freqbodyaccelstdy
-- freqbodyaccelstdz
-- freqbodybodyacceljerkmagmean
-- freqbodybodyacceljerkmagstd
-- freqbodybodygyrojerkmagmean
-- freqbodybodygyrojerkmagmean
-- freqbodybodygyrojerkmagstd
-- freqbodybodygyrojerkmagstd
-- freqbodybodygyromagmean
-- freqbodybodygyromagmean
-- freqbodybodygyromagstd
-- freqbodybodygyromagstd
-- freqbodygyromeanx
-- freqbodygyromeany
-- freqbodygyromeanz
-- freqbodygyrostdx
-- freqbodygyrostdy
-- freqbodygyrostdz
-- timebodyacceljerkmagmean
-- timebodyacceljerkmagstd
-- timebodyacceljerkmeanx
-- timebodyacceljerkmeany
-- timebodyacceljerkmeanz
-- timebodyacceljerkstdx
-- timebodyacceljerkstdy
-- timebodyacceljerkstdz
-- timebodyaccelmagmean
-- timebodyaccelmagstd
-- timebodyaccelmeanx
-- timebodyaccelmeany
-- timebodyaccelmeanz
-- timebodyaccelstdx
-- timebodyaccelstdy
-- timebodyaccelstdz
-- timebodygyrojerkmagmean
-- timebodygyrojerkmagstd
-- timebodygyrojerkmeanx
-- timebodygyrojerkmeany
-- timebodygyrojerkmeanz
-- timebodygyrojerkstdx
-- timebodygyrojerkstdy
-- timebodygyrojerkstdz
-- timebodygyromagmean
-- timebodygyromagstd
-- timebodygyromeanx
-- timebodygyromeany
-- timebodygyromeanz
-- timebodygyrostdx
-- timebodygyrostdy
-- timebodygyrostdz
-- timegravityaccelmagmean
-- timegravityaccelmagstd
-- timegravityaccelmeanx
-- timegravityaccelmeany
-- timegravityaccelmeanz
-- timegravityaccelstdx
-- timegravityaccelstdy
-- timegravityaccelstdz
+- subject: identifies each test subject (1-30)
+- activity: identifies each of the six activities performed by the test subjects
+- The following fields are average mean / standard deviation results for each variable: 
+  - freqbodyacceljerkmeanx
+  - freqbodyacceljerkmeany
+  - freqbodyacceljerkmeanz
+  - freqbodyacceljerkstdx
+  - freqbodyacceljerkstdy
+  - freqbodyacceljerkstdz
+  - freqbodyaccelmagmean
+  - freqbodyaccelmagstd
+  - freqbodyaccelmeanx
+  - freqbodyaccelmeany
+  - freqbodyaccelmeanz
+  - freqbodyaccelstdx
+  - freqbodyaccelstdy
+  - freqbodyaccelstdz
+  - freqbodybodyacceljerkmagmean
+  - freqbodybodyacceljerkmagstd
+  - freqbodybodygyrojerkmagmean
+  - freqbodybodygyrojerkmagmean
+  - freqbodybodygyrojerkmagstd
+  - freqbodybodygyrojerkmagstd
+  - freqbodybodygyromagmean
+  - freqbodybodygyromagmean
+  - freqbodybodygyromagstd
+  - freqbodybodygyromagstd
+  - freqbodygyromeanx
+  - freqbodygyromeany
+  - freqbodygyromeanz
+  - freqbodygyrostdx
+  - freqbodygyrostdy
+  - freqbodygyrostdz
+  - timebodyacceljerkmagmean
+  - timebodyacceljerkmagstd
+  - timebodyacceljerkmeanx
+  - timebodyacceljerkmeany
+  - timebodyacceljerkmeanz
+  - timebodyacceljerkstdx
+  - timebodyacceljerkstdy
+  - timebodyacceljerkstdz
+  - timebodyaccelmagmean
+  - timebodyaccelmagstd
+  - timebodyaccelmeanx
+  - timebodyaccelmeany
+  - timebodyaccelmeanz
+  - timebodyaccelstdx
+  - timebodyaccelstdy
+  - timebodyaccelstdz
+  - timebodygyrojerkmagmean
+  - timebodygyrojerkmagstd
+  - timebodygyrojerkmeanx
+  - timebodygyrojerkmeany
+  - timebodygyrojerkmeanz
+  - timebodygyrojerkstdx
+  - timebodygyrojerkstdy
+  - timebodygyrojerkstdz
+  - timebodygyromagmean
+  - timebodygyromagstd
+  - timebodygyromeanx
+  - timebodygyromeany
+  - timebodygyromeanz
+  - timebodygyrostdx
+  - timebodygyrostdy
+  - timebodygyrostdz
+  - timegravityaccelmagmean
+  - timegravityaccelmagstd
+  - timegravityaccelmeanx
+  - timegravityaccelmeany
+  - timegravityaccelmeanz
+  - timegravityaccelstdx
+  - timegravityaccelstdy
+  - timegravityaccelstdz
 
 ## Source
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012

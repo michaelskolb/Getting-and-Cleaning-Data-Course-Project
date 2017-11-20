@@ -46,5 +46,5 @@ Activity itegers (1-6) from subtdat are replaced with the actions describing the
 ## 5.0 Create independent tidy dataset
 The folllowing library(reshape2) functions are used to:
 - Assign finaldat as melt function with ID variables "subject" and "activity"
-- Assign finalmean as dcast function, which calculates mean for ID/measurement variable combinations in finaldat
-Write finalmean data to .txt file called tidydata.txt
+- Assign finalmean as dcast function to calculate mean for ID/measurement variable combinations in finaldat
+- Write finalmean data to .txt file called tidydata.txt

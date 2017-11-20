@@ -17,15 +17,15 @@ All files were downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fp
 
 ## Combine datasets and associated variable names
 ### 1.0 Combine rows from associated Test and Train datasets
-The following files are combined as aData
-- 'train/y_train.txt': aTrain
-- 'test/y_test.txt': aTest
-The following files are combined as fData
-- 'train/X_train.txt': fTrain
-- 'test/X_test.txt': fTest
-The following files are combined as sData
-- 'train/subject_train.txt': sTrain
-- 'test/subject_test.txt': sTest
+- The following files are combined as aData
+  - 'train/y_train.txt': aTrain
+  - 'test/y_test.txt': aTest
+- The following files are combined as fData
+  - 'train/X_train.txt': fTrain
+  - 'test/X_test.txt': fTest
+- The following files are combined as sData
+  - 'train/subject_train.txt': sTrain
+  - 'test/subject_test.txt': sTest
 ### 1.1 Add variable names to combined datasets
 - aData variable = "Activity"
 - fData variable = names from file fNames

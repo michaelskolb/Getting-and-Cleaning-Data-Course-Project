@@ -35,16 +35,15 @@ fNames3 <- c(as.character(fNames2), "Subject", "Activity")
 subtdat <- subset(tdat, select=fNames3)
 
 ## 3.0 Replace Activity integers with descriptive names
-msubdat <- merge(subtdat, aNames, by.x="Activity", by.y="V1")
-subtdat$Activity <- msubdat$V2
+subtdat$Activity <- factor(subtdat$Activity, levels = aNames[,1], 
+                           labels = aNames[,2])
 
-## 4.0 Replace column labels with descriptive names and set ID variables as factors
+## 4.0 Replace column labels with descriptive names
 names(subtdat) <- gsub("^t", "Time", names(subtdat))
 names(subtdat) <- gsub("^f", "Freq", names(subtdat))
 names(subtdat) <- gsub("Acc", "Accel", names(subtdat))
 names(subtdat) <- gsub('[-()]', '', names(subtdat))
 names(subtdat) <- tolower(names(subtdat))
-subtdat$activity <- as.factor(subtdat$activity)
 subtdat$subject <- as.factor(subtdat$subject)
 
 ## 5.0 Create tidy dataset with the average of each variable by subject/activity

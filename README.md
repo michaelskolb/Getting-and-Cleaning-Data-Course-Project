@@ -27,9 +27,9 @@ The following files are combined as sData
 - 'train/subject_train.txt': sTrain
 - 'test/subject_test.txt': sTest
 ### 1.1 Add variable names to combined datasets
-aData variable = "Activity"
-fData variable = names from file fNames
-sData variable = "Subject"
+- aData variable = "Activity"
+- fData variable = names from file fNames
+- sData variable = "Subject"
 ### 1.2 Combine activity, feature, and subject data
 aData, fData, sData are combined as tdat
 

@@ -44,8 +44,7 @@ names(subtdat) <- gsub("^f", "Freq", names(subtdat))
 names(subtdat) <- gsub("Acc", "Accel", names(subtdat))
 names(subtdat) <- gsub('[-()]', '', names(subtdat))
 names(subtdat) <- tolower(names(subtdat))
-subtdat$activity <- factor(subtdat$activity,levels = aNames[,1], 
-                           labels = aNames[,2])
+subtdat$activity <- as.factor(subtdat$activity)
 subtdat$subject <- as.factor(subtdat$subject)
 
 ## 5.0 Create tidy dataset with the average of each variable by subject/activity

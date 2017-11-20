@@ -39,7 +39,7 @@ Only include columns from tdat with Subject, Activtiy, or fNames with mean or st
 ## 3.0 Replace Activity integers with descriptive names
 Activity itegers (1-6) from subtdat are replaced with the actions describing the activity
 
-## 4.0 Replace column labels with descriptive names and set ID variables as factors
+## 4.0 Replace column labels with descriptive names
 - Column labels in subtdat are made to be more descriptive
 - activity and subject variables are cast as a factors
 
